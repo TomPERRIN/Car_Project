@@ -196,7 +196,7 @@ def coupe(text, bouge):
 arretComplet()
 text_prec = ""
 bouge = False
-"""
+
 while True:
     acceleration = 0
     data = stream.read(4096)
@@ -217,11 +217,4 @@ while True:
         if "quitte" in text or "kit" in text :
             break
         text_prec = text 
-"""
-text = "avance acce fort droite stop"
-bouge = avancer(text, bouge)
-acceleration = acc_ral(text, bouge)      # Accélérer ou ralentir ?
-accelerer(Vitesse1, acceleration) 
-tourner(text)
-sleep(2)
-coupe(text, bouge)
+
