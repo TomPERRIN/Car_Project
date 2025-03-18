@@ -11,3 +11,5 @@ The code.py script for the car to function, uses the small french model :
 https://alphacephei.com/vosk/models : vosk-model-small-fr-0.22
 
 with the library vosk : https://alphacephei.com/vosk/ for offline speech recognition
+
+To capture the sound, the pyaudio library is used : https://pypi.org/project/PyAudio/ 
