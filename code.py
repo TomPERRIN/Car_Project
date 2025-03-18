@@ -106,7 +106,7 @@ def avancer(text, bouge):
 def acc_ral (text, bouge):
     acceleration = 0
     if bouge :
-        if "accé" in text or "accè" in text or "avan" in text:
+        if "accé" in text or "accè" in text or "avan" in text or "va" in text:
             if "max" in text or "box" in text or "fon" in text:
                 acceleration = 10
             elif "for" in text or "beau" in text:
