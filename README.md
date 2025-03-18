@@ -8,4 +8,5 @@ controling 2 DC motors.
 
 The code.py script for the car to function, uses the small french model :
 https://alphacephei.com/vosk/models : vosk-model-small-fr-0.22
-<Enter>with the library vosk : https://alphacephei.com/vosk/ for offline speech recognition
+
+with the library vosk : https://alphacephei.com/vosk/ for offline speech recognition
