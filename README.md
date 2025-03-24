@@ -1,15 +1,12 @@
-Speech Recognition car !
+#Speech Recognition car !
 
-On raspberry PI4 : https://www.raspberrypi.com/products/raspberry-pi-4-model-b/specifications/
+On raspberry [PI4](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/specifications/) and a 
 
-linked to 
+[SBC-MotorDriver2](https://joy-it.net/files/files/Produkte/SBC-MotorDriver2/SBC-MotoDriver2_Manual_2024-05-08.pdf)
+controling a DC motors and a motor brain.
 
-joy-it SBC-MotorDriver2 : https://joy-it.net/files/files/Produkte/SBC-MotorDriver2/SBC-MotoDriver2_Manual_2024-05-08.pdf
-controling 2 DC motors.
+The code.py script for the car to function, uses the small french model : [vosk-model-small-fr-0.22](https://alphacephei.com/vosk/models)
 
-The code.py script for the car to function, uses the small french model :
-https://alphacephei.com/vosk/models : vosk-model-small-fr-0.22
+with the library [vosk](https://alphacephei.com/vosk/)
 
-with the library vosk : https://alphacephei.com/vosk/ for offline speech recognition
-
-To capture the sound, the pyaudio library is used : https://pypi.org/project/PyAudio/ 
+Sound capture with [pyaudio](https://pypi.org/project/PyAudio/) 
